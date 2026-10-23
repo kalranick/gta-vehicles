@@ -1,0 +1,266 @@
+main {
+  font-family: Arial, sans-serif;
+  /* max-width: 1100px; */
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.app-nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.app-nav a {
+  color: #1a5fb4;
+  text-decoration: none;
+}
+
+.app-nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.map-page {
+  position: relative;
+  display: block;
+  width: min(100%, calc((100vh - 11rem) * 1.781));
+  aspect-ratio: 1674 / 940;
+}
+
+.map-page img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.map-icon-label {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  margin-top: -12px;
+  cursor: pointer;
+}
+
+.map-icon-label::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+  margin-bottom: 0.35rem;
+  padding: 0.35rem 0.6rem;
+  background: #222;
+  color: #fff;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease-in-out;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.map-icon-label:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.vehicle-list table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.vehicle-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.75rem 1rem;
+}
+
+.vehicle-controls > label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-weight: 700;
+}
+
+.vehicle-search {
+  margin: 0;
+}
+
+.vehicle-controls input,
+.vehicle-controls select {
+  box-sizing: border-box;
+  min-height: 2.25rem;
+  padding: 0.4rem 0.55rem;
+  font: inherit;
+}
+
+.vehicle-controls input {
+  font-weight: 100;
+}
+
+.vehicle-result-count {
+  margin: 1rem 0 0.5rem;
+}
+
+.vehicle-table-scroll {
+  overflow-x: auto;
+}
+
+.vehicle-empty-state {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.vehicle-list th,
+.vehicle-list td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+  width: 130px;
+}
+
+.vehicle-list th span,
+.vehicle-list td span {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.vehicle-list td .vehicle-name-match {
+  width: fit-content;
+  max-width: 100%;
+  background-color: #fff1a8;
+  color: #222;
+  font-weight: 700;
+}
+
+.vehicle-list th {
+  background: #f2f2f2;
+}
+
+h1 {
+  color: #222;
+}
+
+.details-page {
+  max-width: 32rem;
+}
+
+.details-progress {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0 0 1.75rem;
+  padding: 0;
+  list-style: none;
+}
+
+.details-progress li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  color: #666;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.details-progress li:not(:last-child)::after {
+  position: absolute;
+  top: 1.125rem;
+  right: calc(-50% + 1.125rem + 5px);
+  left: calc(50% + 1.125rem + 5px);
+  height: 2px;
+  background: #d5d5d5;
+  content: '';
+}
+
+.details-progress-number {
+  display: grid;
+  box-sizing: border-box;
+  width: 2.25rem;
+  height: 2.25rem;
+  place-items: center;
+  border: 2px solid #aaa;
+  border-radius: 50%;
+  background: #fff;
+  font-weight: 700;
+}
+
+.details-progress li[aria-current='step'] {
+  color: #1a5fb4;
+  font-weight: 700;
+}
+
+.details-progress li[aria-current='step'] .details-progress-number {
+  border-color: #1a5fb4;
+  background: #1a5fb4;
+  color: #fff;
+}
+
+.details-form {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.details-form label {
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+
+.details-form input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.55rem;
+  font: inherit;
+}
+
+.vehicle-item {
+  position: relative;
+}
+
+.vehicle-item a {
+  color: #1a5fb4;
+  text-decoration: none;
+}
+
+.vehicle-item a:hover {
+  text-decoration: underline;
+}
+
+.vehicle-details {
+  max-width: 40rem;
+}
+
+.vehicle-details h2 {
+  margin-top: 1.25rem;
+}
+
+.vehicle-details dl {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.vehicle-details dl div {
+  padding: 1rem;
+  background: #f2f2f2;
+}
+
+.vehicle-details dt {
+  font-weight: 700;
+}
+
+.vehicle-details dd {
+  margin: 0.35rem 0 0;
+}

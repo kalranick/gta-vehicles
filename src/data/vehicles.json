@@ -1,0 +1,528 @@
+{
+  "vehicles": {
+    "Arcade": {
+        "nickname": "Arcade",
+        "vehicles": [
+            {
+                "id": 1,
+                "name": "Raptor",
+                "category": "Off-Road",
+                "url": "https://gta.fandom.com/wiki/Raptor"
+            },
+            {
+                "id": 2,
+                "name": "Vigilante",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/Vigilante"
+            },
+            {
+                "id": 3,
+                "name": "Frankenstange",
+                "category": "Muscle",
+                "url": "https://gta.fandom.com/wiki/Frankenstange"
+            },
+            {
+                "id": 4,
+                "name": "Veto Classic",
+                "category": "Off-Road",
+                "url": "https://gta.fandom.com/wiki/Veto_Classic"
+            },
+            {
+                "id": 5,
+                "name": "Blazer",
+                "category": "Off-Road",
+                "url": "https://gta.fandom.com/wiki/Blazer"
+            },
+            {
+                "id": 6,
+                "name": "Verus",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Verus"
+            }
+        ]
+    },
+    "Casino": {
+        "nickname": "Armoured Vehicles",
+        "vehicles": [
+            {
+                "id": 1,
+                "name": "Paragon R",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Paragon_R"
+            },
+            {
+                "id": 2,
+                "name": "Kuruma",
+                "category": "Sedan",
+                "url": "https://gta.fandom.com/wiki/Kuruma"
+            },
+            {
+                "id": 3,
+                "name": "Cognoscenti",
+                "category": "Sedan",
+                "url": "https://gta.fandom.com/wiki/Cognoscenti"
+            },
+            {
+                "id": 4,
+                "name": "Baller LE",
+                "category": "SUV",
+                "url": "https://gta.fandom.com/wiki/Baller_LE"
+            },
+            {
+                "id": 5,
+                "name": "Z-Type",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/Z-Type"
+            },
+            {
+                "id": 6,
+                "name": "Duke of Death",
+                "category": "Muscle",
+                "url": "https://gta.fandom.com/wiki/Duke_of_Death"
+            },
+            {
+                "id": 7,
+                "name": "Double T",
+                "category": "Motorcycle",
+                "url": "https://gta.fandom.com/wiki/Double_T"
+            },
+            {
+                "id": 8,
+                "name": "Lectro",
+                "category": "Motorcycle",
+                "url": "https://gta.fandom.com/wiki/Lectro"
+            },
+            {
+                "id": 9,
+                "name": "Baller ST",
+                "category": "SUV",
+                "url": "https://gta.fandom.com/wiki/Baller_ST"
+            },
+            {
+                "id": 10,
+                "name": "Arbiter GT",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Arbiter_GT"
+            }
+        ]
+    },
+    "3 Alt St, Apt 10": {
+        "nickname": "Most Used Vehicles",
+        "vehicles": [
+            {
+                "id": 1,
+                "name": "Banshee GTS",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Banshee_GTS"
+            },
+            {
+                "id": 2,
+                "name": "Tulip",
+                "category": "Muscle",
+                "url": "https://gta.fandom.com/wiki/Tulip"
+            },
+            {
+                "id": 3,
+                "name": "Pariah",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Pariah"
+            },
+            {
+                "id": 4,
+                "name": "Retinue MK II",
+                "category": "Muscle",
+                "url": "https://gta.fandom.com/wiki/Retinue_Mk_II"
+            },
+            {
+                "id": 5,
+                "name": "Krieger",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/Krieger"
+            },
+            {
+                "id": 6,
+                "name": "Rapid GT Classic",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/Rapid_GT_Classic"
+            },
+            {
+                "id": 7,
+                "name": "Pariah",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Pariah"
+            },
+            {
+                "id": 8,
+                "name": "Savestra",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/Savestra"
+            },
+            {
+                "id": 9,
+                "name": "BMX",
+                "category": "Bike",
+                "url": "https://gta.fandom.com/wiki/BMX"
+            }
+        ]
+    },
+    "2044 North Conker Ave": {
+        "nickname": "Ferrari Garage",
+        "vehicles": [
+            {
+                "id": 1,
+                "name": "Itali GTO",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/Itali_GTO_(HD_Universe)"
+            },
+            {
+                "id": 2,
+                "name": "LSCM Cheetah Classic",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/Cheetah_Classic"
+            },
+            {
+                "id": 3,
+                "name": "Turismo Omaggio",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/Turismo_Omaggio"
+            },
+            {
+                "id": 4,
+                "name": "Stinger TT",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/Stinger_GT"
+            },
+            {
+                "id": 5,
+                "name": "Itali GTO",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/Itali_GTO_(HD_Universe)"
+            },
+            {
+                "id": 6,
+                "name": "Turismo Omaggio",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/Turismo_Omaggio"
+            },
+            {
+                "id": 7,
+                "name": "Turismo Classic",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/Turismo_Classic"
+            },
+            {
+                "id": 8,
+                "name": "Itali RSX",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Itali_RSX"
+            }
+        ]
+    },
+    "Del Perro Hets, 7": {
+        "nickname": "Drift Cars",
+        "vehicles": [
+            {
+                "id": 1,
+                "name": "Remus",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Remus"
+            },
+            {
+                "id": 2,
+                "name": "Futo GTX",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Futo_GTX"
+            },
+            {
+                "id": 3,
+                "name": "Jester Classic",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Jester_Classic"
+            }
+        ]
+    },
+    "Eclipse, Penthouse Suite 3": {
+        "nickname": "Eclipse, Penthouse Suite 3",
+        "vehicles": [
+            {
+                "id": 1,
+                "name": "Tropos Rallye",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Tropos_Rallye"
+            },
+            {
+                "id": 2,
+                "name": "Omnis",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Omnis"
+            },
+            {
+                "id": 3,
+                "name": "Comet Safari",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Comet_Safari"
+            },
+            {
+                "id": 4,
+                "name": "Jugular",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Jugular"
+            },
+            {
+                "id": 5,
+                "name": "Sultan Classic",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/Sultan_Classic"
+            },
+            {
+                "id": 6,
+                "name": "Tropos Rallye",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Tropos_Rallye"
+            },
+            {
+                "id": 7,
+                "name": "Flash GT",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/Flash_GT"
+            }
+        ]
+    },
+    "2868 Hillcrest Ave": {
+        "nickname": "Porsche Garage",
+        "vehicles": [
+            {
+                "id": 1,
+                "name": "Growler",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Growler"
+            },
+            {
+                "id": 2,
+                "name": "Comet S2",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Comet_S2"
+            },
+            {
+                "id": 3,
+                "name": "GT500",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/GT500"
+            },
+            {
+                "id": 4,
+                "name": "SM722",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/SM722"
+            },
+            {
+                "id": 5,
+                "name": "Torero XO",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/Torero_XO"
+            },
+            {
+                "id": 6,
+                "name": "Comet SR",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Comet_SR"
+            },
+            {
+                "id": 7,
+                "name": "Specter",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Specter"
+            }
+        ]
+    },
+    "Office Garage One": {
+        "nickname": "Office Garage One",
+        "vehicles": [
+            {
+                "id": 1,
+                "name": "Komoda",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Komoda"
+            },
+            {
+                "id": 2,
+                "name": "Devastate",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Devastate"
+            },
+            {
+                "id": 3,
+                "name": "Turismo R",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/Turismo_R"
+            },
+            {
+                "id": 4,
+                "name": "Tempesta",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/Tempesta"
+            },
+            {
+                "id": 5,
+                "name": "T20",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/T20"
+            },
+            {
+                "id": 6,
+                "name": "Rapid GT",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Rapid_GT"
+            },
+            {
+                "id": 7,
+                "name": "Tygon",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Tygon"
+            },
+            {
+                "id": 8,
+                "name": "X80 Proto",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/X80_Proto"
+            },
+            {
+                "id": 9,
+                "name": "Zentorno",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/Zentorno"
+            },
+            {
+                "id": 10,
+                "name": "Tezeract",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/Tezeract"
+            },
+            {
+                "id": 11,
+                "name": "Emerus",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/Emerus"
+            },
+            {
+                "id": 12,
+                "name": "Taipan",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/Taipan"
+            },
+            {
+                "id": 13,
+                "name": "Osiris",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/Osiris"
+            },
+            {
+                "id": 14,
+                "name": "Autarch",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/Autarch"
+            }
+        ]
+    },
+    "Office Garage Two": {
+        "nickname": "Office Garage Two",
+        "vehicles": [
+            {
+                "id": 1,
+                "name": "Zorrusso",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/Zorrusso"
+            },
+            {
+                "id": 2,
+                "name": "F620",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/F620"
+            },
+            {
+                "id": 3,
+                "name": "Vagner",
+                "category": "Super",
+                "url": "https://gta.fandom.com/wiki/Vagner"
+            },
+            {
+                "id": 4,
+                "name": "Bestia GTS",
+                "category": "Sports",
+                "url": "https://gta.fandom.com/wiki/Bestia_GTS"
+            },
+            {
+                "id": 5,
+                "name": "Blista Compact",
+                "category": "Compact",
+                "url": "https://gta.fandom.com/wiki/Blista_Compact"
+            },
+            {
+                "id": 6,
+                "name": "Brigham",
+                "category": "Muscle",
+                "url": "https://gta.fandom.com/wiki/Brigham"
+            }
+        ]
+    },
+    "Office Garage Three": {
+        "nickname": "Office Garage Three",
+        "vehicles": [
+            {
+                "id": 1,
+                "name": "Sugoi",
+                "category": "Compact",
+                "url": "https://gta.fandom.com/wiki/Sugoi"
+            },
+            {
+                "id": 2,
+                "name": "Issi Rally",
+                "category": "Compact",
+                "url": "https://gta.fandom.com/wiki/Issi_Rally"
+            },
+            {
+                "id": 3,
+                "name": "Issi Classic",
+                "category": "Compact",
+                "url": "https://gta.fandom.com/wiki/Issi_Classic"
+            },
+            {
+                "id": 4,
+                "name": "Brioso 300",
+                "category": "Compact",
+                "url": "https://gta.fandom.com/wiki/Brioso_300"
+            },
+            {
+                "id": 5,
+                "name": "Brioso R/A",
+                "category": "Compact",
+                "url": "https://gta.fandom.com/wiki/Brioso_R/A"
+            },
+            {
+                "id": 6,
+                "name": "Weevil",
+                "category": "Compact",
+                "url": "https://gta.fandom.com/wiki/Weevil"
+            },
+            {
+                "id": 7,
+                "name": "JB 700W",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/JB_700W"
+            },
+            {
+                "id": 8,
+                "name": "Nightshade",
+                "category": "Muscle",
+                "url": "https://gta.fandom.com/wiki/Nightshade"
+            },
+            {
+                "id": 9,
+                "name": "Sentinel Classic",
+                "category": "Sports Classic",
+                "url": "https://gta.fandom.com/wiki/Sentinel_Classic"
+            }
+        ]
+    }
+  }
+}
