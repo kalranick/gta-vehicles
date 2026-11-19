@@ -61,6 +61,16 @@ gta-vehicles/
    npm run build
    ```
 
+## GitHub Pages
+
+This repository does not currently have a GitHub Pages deployment configured. Although the app can be built as static files, it needs additional setup before it can be hosted there:
+
+- The production build must use the correct base path when the site is published from a repository subpath.
+- The app uses `BrowserRouter`, so refreshing or opening a nested route directly (such as `/map` or a vehicle detail page) can return a 404 on GitHub Pages unless routing is adapted or a fallback is configured.
+- There is no GitHub Actions workflow to build and publish the app.
+
+Until these are addressed, the repository has no Pages site.
+
 ## Notes
 
 The app reads vehicle data from `src/data/vehicles.json` and renders it grouped by garage. Vehicle names can be searched, filtered by category or garage, and sorted alphabetically. Selecting a vehicle opens its detail page at `/vehicles/:garage/:vehicleId`.
