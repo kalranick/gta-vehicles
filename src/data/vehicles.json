@@ -524,5 +524,25 @@
             }
         ]
     }
-  }
+  },
+  "GTA6": [
+    {
+      "id": 1,
+      "name": "Vice City Coupe",
+      "category": "Sports",
+      "url": "https://example.com/vehicles/vice-city-coupe"
+    },
+    {
+      "id": 2,
+      "name": "Leonida Cruiser",
+      "category": "Sedan",
+      "url": "https://example.com/vehicles/leonida-cruiser"
+    },
+    {
+      "id": 3,
+      "name": "Panther SUV",
+      "category": "SUV",
+      "url": "https://example.com/vehicles/panther-suv"
+    }
+  ]
 }
